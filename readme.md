@@ -2,4 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/koishi-plugin-examplee?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-examplee)
 
+直接返回一个随机的答案，使用uapi。
+
+https://uapis.cn/docs/api-reference/get-answerbook-ask
 

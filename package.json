@@ -1,22 +1,29 @@
 {
-  "name": "koishi-plugin-examplee",
-  "description": "",
-  "version": "0.0.1",
+  "name": "koishi-plugin-answerbook-uapi",
+  "version": "0.1.0",
+  "description": "答案之书插件 - 获取神秘的随机答案，使用uapi。",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
-    "lib",
-    "dist"
+    "lib"
   ],
+  "author": "cc-caffeine",
   "license": "MIT",
-  "scripts": {},
   "keywords": [
-    "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "answer-book",
+    "占卜"
   ],
-  "devDependencies": {},
   "peerDependencies": {
-    "koishi": "^4.18.7"
+    "koishi": "^4.15.0"
+  },
+  "devDependencies": {
+    "koishi": "^4.15.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
   }
 }
